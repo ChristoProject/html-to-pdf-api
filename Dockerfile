@@ -1,6 +1,6 @@
 # -------------- Stage: immagine base ------------------------------------------------------------ #
 # Usiamo una immagine Python ufficiale, leggera (slim = senza pacchetti inutili)
-FROM python:3.11-slim
+FROM python:3.11-slim-bookworm
 
 # -------------- Installazione di wkhtmltopdf ---------------------------------------------------- #
 # Su Linux lo installiamo come pacchetto di sistema — niente .exe, niente path manuali
